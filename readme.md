@@ -1,8 +1,10 @@
 #Live Photo Mover
+
 iPhones now take a video every time you take a photo. It's hard to tell the difference between normal
 videos and these "live photos" when importing. This script chucks them in a different folder. Probably.
 
 #Usage
+
 livephotomv.sh -o <directory to move live photos to> <input files ...>
 
 eg. livephoto.sh -o ./livephotos/ ./*
