@@ -1,15 +1,12 @@
-#Live Photo Mover
-
+# Live Photo Mover
 iPhones now take a video every time you take a photo. It's hard to tell the difference between normal
 videos and these "live photos" when importing. This script chucks them in a different folder. Probably.
 
-#Usage
+Looking at two files, I found a difference in the EXIF data. Live photos seem to have the ContentIdentifier tag set, and normal videos don't.
 
-livephotomv.sh -o <directory to move live photos to> <input files ...>
+This script requires exiftool to be installed, and I've only used it once, so good luck!
 
-eg. livephoto.sh -o ./livephotos/ ./*
+# Usage
+`livephotomv.sh -o <directory to move live photos to> <input files ...>`
+For example: `livephoto.sh -o ./livephotos/ ./*`
 
-Normal videos and live photo videos seem to differ in EXIF.
-Live photos seem to have the ContentIdentifier tag, and normal vids don't.
-This requires exiftool to be installed
-I've only used this once, good luck
