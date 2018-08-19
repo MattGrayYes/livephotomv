@@ -8,5 +8,6 @@ This script requires exiftool to be installed, and I've only used it once, so go
 
 # Usage
 `livephotomv.sh -o <directory to move live photos to> <input files ...>`
+
 For example: `livephoto.sh -o ./livephotos/ ./*`
 
